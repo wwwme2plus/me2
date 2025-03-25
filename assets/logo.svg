@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<!-- Clean background -->
+<rect width="400" height="400" fill="white" rx="50" ry="50"/>
+<!-- Robot head base - rounded square -->
+<rect x="100" y="80" width="200" height="220" rx="40" ry="40" fill="#4834d4"/>
+<!-- Inner face panel -->
+<rect x="115" y="95" width="170" height="190" rx="30" ry="30" fill="#6c5ce7"/>
+<!-- Eyes -->
+<g>
+<!-- Left eye -->
+<circle cx="155" cy="165" r="25" fill="white"/>
+<circle cx="155" cy="165" r="15" fill="#0097e6">
+<animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="160" cy="160" r="5" fill="white"/>
+<!-- Right eye -->
+<circle cx="245" cy="165" r="25" fill="white"/>
+<circle cx="245" cy="165" r="15" fill="#0097e6">
+<animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="250" cy="160" r="5" fill="white"/>
+</g>
+<!-- Smile - simple curve -->
+<path d="M155,210 Q200,250 245,210" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+<!-- Antenna -->
+<line x1="200" y1="80" x2="200" y2="50" stroke="#4834d4" stroke-width="10" stroke-linecap="round"/>
+<circle cx="200" cy="40" r="15" fill="#0097e6">
+<animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+</circle>
+<!-- Robot ears/side elements -->
+<rect x="75" y="130" width="25" height="60" rx="10" ry="10" fill="#4834d4"/>
+<rect x="300" y="130" width="25" height="60" rx="10" ry="10" fill="#4834d4"/>
+<!-- Cheek highlights -->
+<circle cx="145" cy="205" r="10" fill="#8c7ae6" opacity="0.7"/>
+<circle cx="255" cy="205" r="10" fill="#8c7ae6" opacity="0.7"/>
+</svg> 
