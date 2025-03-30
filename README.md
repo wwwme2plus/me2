@@ -1,7 +1,8 @@
 # Me2
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/wwwme2plus/me2/main/assets/logo.png" alt="Me2 Logo" width="200"/>
+  <img src="assets/logo.png" alt="Me2 Logo" width="200"/>
+  <p><em>Your Personal AI Extension</em></p>
 </div>
 
 ## Overview
